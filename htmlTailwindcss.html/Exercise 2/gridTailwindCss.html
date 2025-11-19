@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>grid tailwind css</title>
+</head>
+<body>
+  
+  <div class="container grid grid-cols-3 bg-white shadow-lg mt-8 rounded-md m-auto mt-8">
+
+    <div class="bg-indigo-600 col-span-full m-4 p-2 rounded-sm text-white">
+
+      <h2>Featired Content</h2>
+      <p>This spans across all three colmuns</p>
+
+    </div>
+
+    <div class=" bg-green-600 col-span-2 m-4 p-2 rounded-sm text-white ">
+      <h2>left section</h2>
+      <p>Takes up 2 colmns</p>
+    </div>
+
+    <div class="bg-green-600 col-span-1 m-4 p-2 rounded-sm text-white">
+      <h2>Right section</h2>
+      <p>Takes 1 colmn</p>
+    </div>
+
+    <div class="bg-purple-600 col-span-1 m-4 p-2 rounded-sm text-white">
+      <h2>colmn 1</h2>
+      Equal width
+    </div>
+    <div class="bg-purple-600 col-span-1 m-4 p-2 rounded-sm text-white">
+      <h2>colmn 2</h2>
+      Equal width
+    </div>
+    <div class="bg-purple-600 col-span-1 m-4 p-2 rounded-sm text-white">
+      <h2>colmn 3</h2>
+      Equal width
+    </div>
+    
+
+  </div>
+
+</body>
+</html>
