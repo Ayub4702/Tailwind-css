@@ -7,8 +7,7 @@
     <title>tailwind css project</title>
   </head>
   <body>
-    
-    <div class="container max-w-6x1">
+    <div class="container max-w-6x1 p-4 mx-auto">
       <div class="page-1 flex justify-around my-4 bg-white">
         <h2 class="text-indigo-600 font-bol">CompanyLogo</h2>
         <div class="nav hidden md:flex md:gap-4 lg:gap-6 justify-around">
@@ -19,7 +18,9 @@
         </div>
       </div>
 
-      <div class="transform bg-indigo-500 text-white flex flex-col p-4 text-center justify-center space-y-4 h-screen md:flex-col md:h-screen">
+      <div
+        class="transform bg-indigo-500 text-white flex flex-col p-4 text-center justify-center space-y-4 h-screen md:flex-col md:h-screen"
+      >
         <h2 class="font-bold text-3xl md:font-bol md:text-6xl">
           Transform Your Business
         </h2>
@@ -251,9 +252,51 @@
       <form action="" class="flex flex-col gap-8 m-auto mt-8 p-6">
         <input type="text" placeholder="Name" class="p-2" />
         <input type="email" placeholder="Email" class="p-2 w-96" />
-        <textarea name="message" id="message" placeholder="Message" class="w-96 h-16 p-4"></textarea>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Message"
+          class="w-96 h-16 p-4"
+        ></textarea>
       </form>
-      <button class="bg-indigo-500 w-64 m-auto text-white rounded-lg mt-12">Send Message</button>
+      <button class="bg-indigo-500 w-64 m-auto text-white rounded-lg mt-6">
+        Send Message
+      </button>
+    </div>
+
+    <div class="container-footer bg-slate-900 text-white p-4 mt-12">
+      <div class="footer flex flex-col space-y-4 mt-4 md:flex md:justify-around">
+        <div class="flex-one space-y-4">
+          <h2 class="font-bold text-gray-100">CompanyLogo</h2>
+          <p class="text-gray-400">
+            Transform your business with our cutting-edge solitions.
+          </p>
+        </div>
+
+        <div class="flex-two space-y-2 mt-2">
+          <h2 class="font-bold text-gray-100">Quick Links</h2>
+          <p class="text-gray-400">Features</p>
+          <p class="text-gray-400">Testimonials</p>
+          <p class="text-gray-400">Pricing</p>
+          <p class="text-gray-400">Contact</p>
+        </div>
+
+        <div class="flex-three space-y-2 mt-2">
+          <h2 class="font-bold text-gray-100">legal</h2>
+          <p class="text-gray-400">Privacy Policy</p>
+          <p class="text-gray-400">Terms f Service</p>
+        </div>
+
+        <div class="contact flex space-x-6 text-gray-400 mt-2">
+          <h2 class="">Twitter</h2>
+          <h2>Linkedln</h2>
+          <h2>Facebook</h2>
+        </div>
+        <p class="border border-gray-800 mt-2 mb-4"></p>
+        <footer class="text-gray-400 mb-6">
+          &copy; 2025 CompanyLogo. All rights rserved.
+        </footer>
+      </div>
     </div>
   </body>
 </html>
