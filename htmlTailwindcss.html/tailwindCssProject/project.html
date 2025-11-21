@@ -7,7 +7,7 @@
     <title>tailwind css project</title>
   </head>
   <body>
-    <div class="container max-w-6x1 p-4 mx-auto ">
+    <div class="container max-w-6x1 p-4 mx-auto">
       <div class="page-1 flex justify-around my-4 bg-white">
         <h2 class="text-indigo-600 font-bol">CompanyLogo</h2>
         <div class="nav hidden md:flex md:gap-4 lg:gap-6 justify-around">
@@ -267,11 +267,14 @@
     <!-- Foooooooter -->
 
     <div class="container-footer bg-slate-900 text-white p-4 mt-12">
-      <div class="footers flex flex-col space-y-4 mt-4 md:grid md:grid-cols-3 md:p-8 md:space-x-2 md:mt-auto">
+      <div
+        class="footers flex flex-col space-y-4 mt-4 md:grid md:grid-cols-4 md:p-8 md:space-x-2 md:mt-auto md:justify-center"
+      >
         <div class="flex-one space-y-4">
           <h2 class="font-bold text-gray-100">CompanyLogo</h2>
           <p class="text-gray-400">
-            Transform your business with our <br> cutting-edge solitions.
+            Transform your business with our <br />
+            cutting-edge solitions.
           </p>
         </div>
 
@@ -289,16 +292,21 @@
           <p class="text-gray-400">Terms f Service</p>
         </div>
 
-        <div class="contact flex space-x-6 text-gray-400 mt-2">
-          <h2 class="">Twitter</h2>
-          <h2>Linkedln</h2>
-          <h2>Facebook</h2>
+        <div class="contact space-y-4">
+          <h2 class="font-bold text-gray-100">Contact</h2>
+          <div
+            class="contactsss flex md:flex space-x-6 md:space-x-8 text-gray-400"
+          >
+            <h2 class="">Twitter</h2>
+            <h2>Linkedln</h2>
+            <h2>Facebook</h2>
+          </div>
         </div>
         <p class="border border-gray-800 mt-2 mb-4"></p>
-        <footer class="text-gray-400 mb-6">
-          &copy; 2025 CompanyLogo. All rights rserved.
-        </footer>
       </div>
+      <footer class="text-gray-400 mb-6 md:mb-2 text-center mx-auto">
+        &copy; 2025 CompanyLogo. All rights rserved.
+      </footer>
     </div>
   </body>
 </html>
